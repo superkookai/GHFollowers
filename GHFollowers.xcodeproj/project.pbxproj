@@ -70,22 +70,54 @@
 		BFAD40182B47A6AC00A44AC7 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				BFAD40272B47A6AD00A44AC7 /* Info.plist */,
+				BFC1D1642B4A8A320051FAA4 /* Supports */,
+				BFC1D1612B4A8A050051FAA4 /* Screens */,
+				BFC1D1622B4A8A170051FAA4 /* Custom Views */,
+				BFC1D1632B4A8A250051FAA4 /* Extensions */,
+			);
+			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		BFC1D1612B4A8A050051FAA4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD402D2B47B45100A44AC7 /* SearchVC.swift */,
+				BFAD402F2B47B4ED00A44AC7 /* FavoritesListVC.swift */,
+				BFAD40352B47E07A00A44AC7 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BFC1D1622B4A8A170051FAA4 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD40312B47BE1A00A44AC7 /* GFButton.swift */,
+				BFAD40332B47C27900A44AC7 /* GFTextField.swift */,
+				BFC1D1592B4A723B0051FAA4 /* GFTitleLabel.swift */,
+				BFC1D15B2B4A747E0051FAA4 /* GFBodyLabel.swift */,
+				BFC1D15D2B4A75BB0051FAA4 /* GFAlertVC.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		BFC1D1632B4A8A250051FAA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFC1D15F2B4A80A60051FAA4 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFC1D1642B4A8A320051FAA4 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
 				BFAD40192B47A6AC00A44AC7 /* AppDelegate.swift */,
 				BFAD401B2B47A6AC00A44AC7 /* SceneDelegate.swift */,
 				BFAD40222B47A6AD00A44AC7 /* Assets.xcassets */,
 				BFAD40242B47A6AD00A44AC7 /* LaunchScreen.storyboard */,
-				BFAD40272B47A6AD00A44AC7 /* Info.plist */,
-				BFAD402D2B47B45100A44AC7 /* SearchVC.swift */,
-				BFAD402F2B47B4ED00A44AC7 /* FavoritesListVC.swift */,
-				BFAD40312B47BE1A00A44AC7 /* GFButton.swift */,
-				BFAD40332B47C27900A44AC7 /* GFTextField.swift */,
-				BFAD40352B47E07A00A44AC7 /* FollowerListVC.swift */,
-				BFC1D1592B4A723B0051FAA4 /* GFTitleLabel.swift */,
-				BFC1D15B2B4A747E0051FAA4 /* GFBodyLabel.swift */,
-				BFC1D15D2B4A75BB0051FAA4 /* GFAlertVC.swift */,
-				BFC1D15F2B4A80A60051FAA4 /* UIViewController+Ext.swift */,
 			);
-			path = GHFollowers;
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
