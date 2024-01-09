@@ -18,6 +18,8 @@
 		BFAD40362B47E07A00A44AC7 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD40352B47E07A00A44AC7 /* FollowerListVC.swift */; };
 		BFB4E3312B4CEBB50045EED0 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E3302B4CEBB50045EED0 /* Follower.swift */; };
 		BFB4E3332B4CEF390045EED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E3322B4CEF390045EED0 /* User.swift */; };
+		BFB4E3362B4CF64B0045EED0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E3352B4CF64B0045EED0 /* NetworkManager.swift */; };
+		BFB4E3392B4D13030045EED0 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4E3382B4D13030045EED0 /* GFError.swift */; };
 		BFC1D15A2B4A723B0051FAA4 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1D1592B4A723B0051FAA4 /* GFTitleLabel.swift */; };
 		BFC1D15C2B4A747E0051FAA4 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1D15B2B4A747E0051FAA4 /* GFBodyLabel.swift */; };
 		BFC1D15E2B4A75BB0051FAA4 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1D15D2B4A75BB0051FAA4 /* GFAlertVC.swift */; };
@@ -38,6 +40,8 @@
 		BFAD40352B47E07A00A44AC7 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		BFB4E3302B4CEBB50045EED0 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		BFB4E3322B4CEF390045EED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFB4E3352B4CF64B0045EED0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BFB4E3382B4D13030045EED0 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		BFC1D1592B4A723B0051FAA4 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		BFC1D15B2B4A747E0051FAA4 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		BFC1D15D2B4A75BB0051FAA4 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				BFAD40272B47A6AD00A44AC7 /* Info.plist */,
+				BFB4E3372B4D12E90045EED0 /* Utilities */,
+				BFB4E3342B4CF61A0045EED0 /* Managers */,
 				BFB4E32F2B4CEB8D0045EED0 /* Model */,
 				BFC1D1642B4A8A320051FAA4 /* Supports */,
 				BFC1D1612B4A8A050051FAA4 /* Screens */,
@@ -91,6 +97,22 @@
 				BFB4E3322B4CEF390045EED0 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BFB4E3342B4CF61A0045EED0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E3352B4CF64B0045EED0 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BFB4E3372B4D12E90045EED0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4E3382B4D13030045EED0 /* GFError.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		BFC1D1612B4A8A050051FAA4 /* Screens */ = {
@@ -211,9 +233,11 @@
 				BFC1D1602B4A80A60051FAA4 /* UIViewController+Ext.swift in Sources */,
 				BFAD402E2B47B45100A44AC7 /* SearchVC.swift in Sources */,
 				BFC1D15E2B4A75BB0051FAA4 /* GFAlertVC.swift in Sources */,
+				BFB4E3392B4D13030045EED0 /* GFError.swift in Sources */,
 				BFC1D15C2B4A747E0051FAA4 /* GFBodyLabel.swift in Sources */,
 				BFB4E3312B4CEBB50045EED0 /* Follower.swift in Sources */,
 				BFC1D15A2B4A723B0051FAA4 /* GFTitleLabel.swift in Sources */,
+				BFB4E3362B4CF64B0045EED0 /* NetworkManager.swift in Sources */,
 				BFAD40362B47E07A00A44AC7 /* FollowerListVC.swift in Sources */,
 				BFAD401A2B47A6AC00A44AC7 /* AppDelegate.swift in Sources */,
 				BFAD401C2B47A6AC00A44AC7 /* SceneDelegate.swift in Sources */,
